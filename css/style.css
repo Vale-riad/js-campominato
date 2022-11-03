@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+header{
+    
+    height:100px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+}
+footer{
+    
+    height:100px;
+    padding:20px;
+}
+.board{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    height: 31.25rem;
+    width: 31.25rem;
+    margin: auto;
+    
+}
+.board_number{
+    width: calc(100% / 10);
+    height:calc(100% / 10);
+    border:1px solid black;
+}
+.color{
+    background-color: aqua;
+}
+.medium-level{
+    width: calc(100% / 9);
+    height:calc(100% / 9);
+    border:1px solid black;
+}
+.easy-level{
+    width: calc(100% / 7);
+    height:calc(100% / 7);
+    border:1px solid black;
+}
+.play{
+    border-radius: 5px;
+    padding: 2px 40px;
+    border-color: lightgray;
+    
+    
+}
+#difficoltà{
+    border-radius: 5px;
+    padding: 3px 40px;
+    border-color: lightgray;
+}
